@@ -157,4 +157,34 @@ public class StudentTest {
         List<Student> list = studentDao.findByGender(1);
         list.forEach(System.out::println);
     }
+
+    /**
+     * 方法命名规则查询
+     * 普通查询
+     */
+    @Test
+    public void findByName() {
+        List<Student> list = studentDao.findByName("tianqingbo");
+        list.forEach(System.out::println);
+    }
+
+    /**
+     * 方法命名规则查询
+     * 模糊查询
+     */
+    @Test
+    public void findByNameLike() {
+        List<Student> list = studentDao.findByNameLike("%t%");
+        list.forEach(System.out::println);
+    }
+
+    /**
+     * 方法命名规则查询
+     * 多条件查询
+     */
+    @Test
+    public void findByNameLikeAndGender() {
+        List<Student> list = studentDao.findByNameLikeAndGender("%t%", 1);
+        list.forEach(System.out::println);
+    }
 }

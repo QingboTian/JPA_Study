@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a684a85-db16-4bb8-8ff5-5231c746cf48" name="Default Changelist" comment="" />
+    <list default="true" id="3a684a85-db16-4bb8-8ff5-5231c746cf48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/jpa01/target/" />
     <ignored path="$PROJECT_DIR$/jpa02/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +63,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="20" />
-          <entry key="java" value="18" />
+          <entry key="java" value="20" />
           <entry key="sql" value="1" />
           <entry key="student" value="4" />
           <entry key="xml" value="13" />
@@ -70,21 +73,21 @@
         <counts>
           <entry key="CLASS" value="20" />
           <entry key="Database Element" value="4" />
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="20" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3427" />
+          <entry key="java" value="4022" />
           <entry key="txt" value="3" />
           <entry key="xml" value="1566" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3427" />
+          <entry key="JAVA" value="4022" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1566" />
         </counts>
@@ -92,7 +95,32 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="184" column="9" lean-forward="true" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="81" column="7" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,7 +134,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>find</find>
+      <find>findByName</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -118,8 +150,8 @@
         <option value="$PROJECT_DIR$/jpa01/pom.xml" />
         <option value="$PROJECT_DIR$/jpa02/pom.xml" />
         <option value="$PROJECT_DIR$/jpa02/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java" />
         <option value="$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java" />
       </list>
     </option>
   </component>
@@ -159,6 +191,9 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
@@ -169,65 +204,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="tianqb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="tianqb" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="tianqb" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
               <item name="jpa02" type="462c0819:PsiDirectoryNode" />
@@ -336,7 +312,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590648024935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590651525624" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/huashan/900" />
@@ -364,23 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.findByGender">
-    <configuration name="StudentTest.findAllOrderByIdDesc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tianqb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.tianqb" />
-      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentTest" />
-      <option name="METHOD_NAME" value="findAllOrderByIdDesc" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentTest.findByNameLikeAndGender">
     <configuration name="StudentTest.findByGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa02" />
       <extension name="coverage">
@@ -397,7 +357,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.findByNameAndGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa02" />
       <extension name="coverage">
         <pattern>
@@ -407,13 +367,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.tianqb" />
       <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentTest" />
-      <option name="METHOD_NAME" value="findByNameAndGender" />
+      <option name="METHOD_NAME" value="findByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.nameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentTest.findByNameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa02" />
       <extension name="coverage">
         <pattern>
@@ -423,7 +383,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.tianqb" />
       <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentTest" />
-      <option name="METHOD_NAME" value="nameLike" />
+      <option name="METHOD_NAME" value="findByNameLike" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.findByNameLikeAndGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tianqb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tianqb" />
+      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentTest" />
+      <option name="METHOD_NAME" value="findByNameLikeAndGender" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -446,19 +422,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentTest.findAllOrderByIdDesc" />
-      <item itemvalue="JUnit.StudentTest.nameLike" />
-      <item itemvalue="JUnit.StudentTest.findByNameAndGender" />
       <item itemvalue="JUnit.StudentTest.findByGender" />
       <item itemvalue="JUnit.StudentTest.updateById" />
+      <item itemvalue="JUnit.StudentTest.findByName" />
+      <item itemvalue="JUnit.StudentTest.findByNameLike" />
+      <item itemvalue="JUnit.StudentTest.findByNameLikeAndGender" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentTest.findByNameLikeAndGender" />
+        <item itemvalue="JUnit.StudentTest.findByNameLike" />
+        <item itemvalue="JUnit.StudentTest.findByName" />
         <item itemvalue="JUnit.StudentTest.findByGender" />
         <item itemvalue="JUnit.StudentTest.updateById" />
-        <item itemvalue="JUnit.StudentTest.findByNameAndGender" />
-        <item itemvalue="JUnit.StudentTest.nameLike" />
-        <item itemvalue="JUnit.StudentTest.findAllOrderByIdDesc" />
       </list>
     </recent_temporary>
   </component>
@@ -473,23 +449,11 @@
       <option name="presentableId" value="Default" />
       <updated>1590550563229</updated>
       <workItem from="1590550566360" duration="2490000" />
-      <workItem from="1590562593543" duration="17642000" />
+      <workItem from="1590562593543" duration="18949000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 26m 12s.xml">
-      <configuration name="StudentTest.updateById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 26m 54s.xml">
-      <configuration name="StudentTest.updateById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 27m 29s.xml">
-      <configuration name="StudentTest.updateById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 29m 20s.xml">
-      <configuration name="StudentTest.updateById" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 30m 46s.xml">
       <configuration name="StudentTest.updateById" configurationId="JUnit" />
     </history-entry>
@@ -508,16 +472,29 @@
     <history-entry file="StudentTest_findByGender - 2020.05.28 at 14h 35m 39s.xml">
       <configuration name="StudentTest.findByGender" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest_findByName - 2020.05.28 at 15h 33m 16s.xml">
+      <configuration name="StudentTest.findByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_findByNameLike - 2020.05.28 at 15h 35m 25s.xml">
+      <configuration name="StudentTest.findByNameLike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_findByNameLike - 2020.05.28 at 15h 35m 40s.xml">
+      <configuration name="StudentTest.findByNameLike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_findByNameLikeAndGender - 2020.05.28 at 15h 38m 06s.xml">
+      <configuration name="StudentTest.findByNameLikeAndGender" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20132000" />
+    <option name="totallyTimeSpent" value="21439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.787452" visible="true" weight="0.15778251" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.78627145" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="2" sideWeight="0.21254802" side_tool="true" visible="true" weight="0.15778251" />
+      <window_info id="Persistence" order="2" sideWeight="0.21372855" side_tool="true" visible="true" weight="0.15778251" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -528,7 +505,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.04338395" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15292841" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30401736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18872017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -537,7 +514,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -557,18 +534,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java</url>
-          <line>145</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/annotation/Documented.java">
@@ -777,26 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="153" column="7" lean-forward="true" selection-start-line="153" selection-start-column="7" selection-end-line="153" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jpa01/src/main/java/cn/tianqb/dao/ConntionDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-189">
@@ -821,6 +766,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="81" column="7" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="184" column="9" lean-forward="true" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

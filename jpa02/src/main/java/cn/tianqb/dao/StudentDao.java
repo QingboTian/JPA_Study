@@ -55,4 +55,30 @@ public interface StudentDao extends JpaRepository<Student, Integer>, JpaSpecific
             "id = :#{#student.id}")
     @Modifying
     int updateById(@Param("student") Student student);
+
+    /**
+     * 方法命名规则查询
+     * 普通查询
+     *  findBy + <属性>
+     * 如：
+     *  findByName
+     *  findByGender
+     * 使用方法命名规则的方法不需要的实现@Query
+     * 注意的是：参数位置必须和方法名上的参数进行对应
+     * @return
+     */
+    List<Student> findByName(String name);
+
+    /**
+     * 模糊查询
+     * @param name
+     * @return
+     */
+    List<Student> findByNameLike(String name);
+
+    /**
+     * 多条件查询
+     * @return
+     */
+    List<Student> findByNameLikeAndGender(String name, Integer gender);
 }
