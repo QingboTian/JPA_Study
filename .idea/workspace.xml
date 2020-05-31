@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a684a85-db16-4bb8-8ff5-5231c746cf48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0fb20160-a9ea-42d4-b45f-684ea750d69b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0fb20160-a9ea-42d4-b45f-684ea750d69b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa02/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa02/src/main/resources/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3a684a85-db16-4bb8-8ff5-5231c746cf48" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/jpa01/target/" />
     <ignored path="$PROJECT_DIR$/jpa02/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,6 +73,7 @@
           <entry key="customer" value="1" />
           <entry key="java" value="45" />
           <entry key="linkman" value="2" />
+          <entry key="md" value="1" />
           <entry key="role" value="1" />
           <entry key="sql" value="1" />
           <entry key="student" value="5" />
@@ -89,6 +87,7 @@
           <entry key="CLASS" value="32" />
           <entry key="Database Element" value="11" />
           <entry key="JAVA" value="45" />
+          <entry key="Markdown" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="15" />
         </counts>
@@ -98,6 +97,7 @@
           <entry key="cell" value="30" />
           <entry key="dummy" value="3" />
           <entry key="java" value="6584" />
+          <entry key="md" value="1" />
           <entry key="txt" value="18" />
           <entry key="xml" value="1699" />
         </counts>
@@ -105,6 +105,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="6584" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="Scratch" value="30" />
           <entry key="XML" value="1699" />
@@ -114,14 +115,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/CustomerDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+            <state relative-caret-position="418">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="140">
+                <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -145,15 +158,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa02/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -290,6 +294,7 @@
         <option value="$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/pojo/Customer.java" />
         <option value="$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/pojo/Linkman.java" />
         <option value="$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/CustomerDaoTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -450,7 +455,7 @@
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlserver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590931518789" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590931798943" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../normal-workspace" />
@@ -590,7 +595,7 @@
       <workItem from="1590562593543" duration="20226000" />
       <workItem from="1590736143502" duration="6499000" />
       <workItem from="1590857354179" duration="909000" />
-      <workItem from="1590902970523" duration="7830000" />
+      <workItem from="1590902970523" duration="8141000" />
     </task>
     <servers />
   </component>
@@ -627,13 +632,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37954000" />
+    <option name="totallyTimeSpent" value="38265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7806268" visible="true" weight="0.1609808" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7806268" visible="true" weight="0.1609808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.21937323" side_tool="true" weight="0.1609808" />
       <window_info id="Designer" order="3" />
@@ -644,7 +649,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24429968" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2942454" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2942454" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -695,13 +700,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.7.Final/hibernate-entitymanager-5.0.7.Final.jar!/org/hibernate/jpa/HibernatePersistenceProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.1.5.RELEASE/spring-orm-5.1.5.RELEASE.jar!/org/springframework/orm/hibernate5/HibernateJdbcException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1107,11 +1105,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/CustomerDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        <state relative-caret-position="418">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="140">
+            <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
