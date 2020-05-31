@@ -16,7 +16,7 @@
         <properties>
             <!--数据库连接信息-->
             <property name="javax.persistence.jdbc.user" value="root"></property>
-            <property name="javax.persistence.jdbc.password" value="123321tqb"></property>
+            <property name="javax.persistence.jdbc.password" value="******"></property>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"></property>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql:///jpa"></property>
 

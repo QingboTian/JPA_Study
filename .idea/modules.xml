@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jpa01/jpa01.iml" filepath="$PROJECT_DIR$/jpa01/jpa01.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa02/jpa02.iml" filepath="$PROJECT_DIR$/jpa02/jpa02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
     </modules>
   </component>
 </project>

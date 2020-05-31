@@ -985,146 +985,170 @@
     <table id="253" parent="13" name="linkman"/>
     <table id="254" parent="13" name="role"/>
     <table id="255" parent="13" name="student"/>
-    <table id="256" parent="13" name="user"/>
-    <table id="257" parent="13" name="user_role"/>
-    <column id="258" parent="252" name="id">
+    <table id="256" parent="13" name="student_test_table"/>
+    <table id="257" parent="13" name="user"/>
+    <table id="258" parent="13" name="user_role"/>
+    <column id="259" parent="252" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="252" name="name">
+    <column id="260" parent="252" name="name">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="260" parent="252" name="PRIMARY">
+    <key id="261" parent="252" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="261" parent="253" name="id">
+    <column id="262" parent="253" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="253" name="name">
+    <column id="263" parent="253" name="name">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="263" parent="253" name="cid">
+    <column id="264" parent="253" name="cid">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="264" parent="253" name="FKaxf3lvtmhqjev04filxd83mqy">
+    <index id="265" parent="253" name="FKaxf3lvtmhqjev04filxd83mqy">
       <ColNames>cid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="265" parent="253" name="PRIMARY">
+    <key id="266" parent="253" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="266" parent="253" name="FKaxf3lvtmhqjev04filxd83mqy">
+    <foreign-key id="267" parent="253" name="FKaxf3lvtmhqjev04filxd83mqy">
       <ColNames>cid</ColNames>
       <RefSchemaName>jpa</RefSchemaName>
       <RefTableName>customer</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="267" parent="254" name="id">
+    <column id="268" parent="254" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="268" parent="254" name="roleName">
+    <column id="269" parent="254" name="roleName">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="269" parent="254" name="PRIMARY">
+    <key id="270" parent="254" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="270" parent="255" name="id">
+    <column id="271" parent="255" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="271" parent="255" name="gender">
+    <column id="272" parent="255" name="gender">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="272" parent="255" name="name">
+    <column id="273" parent="255" name="name">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="273" parent="255" name="PRIMARY">
+    <key id="274" parent="255" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="274" parent="256" name="id">
+    <column id="275" parent="256" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="275" parent="256" name="username">
+    <column id="276" parent="256" name="gender">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="277" parent="256" name="name">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="278" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="279" parent="257" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="280" parent="257" name="username">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="276" parent="256" name="PRIMARY">
+    <key id="281" parent="257" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="277" parent="257" name="rid">
+    <column id="282" parent="258" name="rid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="278" parent="257" name="uid">
+    <column id="283" parent="258" name="uid">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="279" parent="257" name="FK42j8eo2o370t7a8lxafrahdsj">
+    <index id="284" parent="258" name="FK42j8eo2o370t7a8lxafrahdsj">
       <ColNames>uid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="280" parent="257" name="PRIMARY">
+    <key id="285" parent="258" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>rid
 uid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="281" parent="257" name="FKd7fdho22i1jlc5jt0vffe3a2c">
+    <foreign-key id="286" parent="258" name="FKd7fdho22i1jlc5jt0vffe3a2c">
       <ColNames>rid</ColNames>
       <RefSchemaName>jpa</RefSchemaName>
       <RefTableName>role</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="282" parent="257" name="FK42j8eo2o370t7a8lxafrahdsj">
+    <foreign-key id="287" parent="258" name="FK42j8eo2o370t7a8lxafrahdsj">
       <ColNames>uid</ColNames>
       <RefSchemaName>jpa</RefSchemaName>
       <RefTableName>user</RefTableName>
