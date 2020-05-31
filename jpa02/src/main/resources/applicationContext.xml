@@ -33,7 +33,20 @@
                 <property name="showSql" value="true"></property>
             </bean>
         </property>
+        
+        <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
 
+                <!--批量插入与更新-->
+                <prop key="hibernate.jdbc.batch_size">2</prop>
+                <prop key="hibernate.jdbc.batch_versioned_data">true</prop>
+                <prop key="hibernate.order_inserts  ">true</prop>
+                <prop key="hibernate.order_updates">true</prop>
+            </props>
+        </property>
+
+        <!--数据库方言-->
         <property name="jpaDialect">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"></bean>
         </property>
@@ -58,4 +71,5 @@
 
     <!--包扫描-->
     <context:component-scan base-package="cn.tianqb"></context:component-scan>
+
 </beans>
