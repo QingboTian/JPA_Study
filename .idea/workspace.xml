@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a684a85-db16-4bb8-8ff5-5231c746cf48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa01/target/classes/cn/tianqb/dao/ConntionDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa01/target/classes/cn/tianqb/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa01/target/classes/cn/tianqb/pojo/Student.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jpa01/target/" />
     <ignored path="$PROJECT_DIR$/jpa02/target/" />
@@ -54,53 +56,58 @@
     <session id="596119122">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.154" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="20" />
-          <entry key="java" value="20" />
+          <entry key="class" value="29" />
+          <entry key="java" value="25" />
           <entry key="sql" value="1" />
-          <entry key="student" value="4" />
+          <entry key="student" value="5" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="20" />
-          <entry key="Database Element" value="4" />
-          <entry key="JAVA" value="20" />
+          <entry key="CLASS" value="29" />
+          <entry key="Database Element" value="5" />
+          <entry key="JAVA" value="25" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4022" />
-          <entry key="txt" value="3" />
+          <entry key="cell" value="28" />
+          <entry key="java" value="4851" />
+          <entry key="txt" value="18" />
           <entry key="xml" value="1566" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4022" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="4851" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Scratch" value="28" />
           <entry key="XML" value="1566" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java">
+        <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentJpaSpecificationExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="184" column="9" lean-forward="true" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
+            <state relative-caret-position="321">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,12 +116,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE.jar!/org/springframework/data/domain/Page.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="81" column="7" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+            <state relative-caret-position="168">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE.jar!/org/springframework/data/domain/PageRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,6 +169,8 @@
         <option value="$PROJECT_DIR$/jpa02/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java" />
+        <option value="$PROJECT_DIR$/jpa02/src/test/java/cn/utlis/PageHelper.java" />
+        <option value="$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentJpaSpecificationExecutorTest.java" />
       </list>
     </option>
   </component>
@@ -200,6 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -258,16 +279,6 @@
               <item name="jpa02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="tianqb" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,18 +315,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlserver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590651525624" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590925838030" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/huashan/900" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../normal-workspace" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -340,8 +349,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.findByNameLikeAndGender">
-    <configuration name="StudentTest.findByGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentJpaSpecificationExecutorTest.page">
+    <configuration name="StudentJpaSpecificationExecutorTest.findOne2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa02" />
       <extension name="coverage">
         <pattern>
@@ -350,14 +359,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.tianqb" />
-      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentTest" />
-      <option name="METHOD_NAME" value="findByGender" />
+      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentJpaSpecificationExecutorTest" />
+      <option name="METHOD_NAME" value="findOne2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentJpaSpecificationExecutorTest.findOne3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa02" />
       <extension name="coverage">
         <pattern>
@@ -366,14 +375,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.tianqb" />
-      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentTest" />
-      <option name="METHOD_NAME" value="findByName" />
+      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentJpaSpecificationExecutorTest" />
+      <option name="METHOD_NAME" value="findOne3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.findByNameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentJpaSpecificationExecutorTest.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa02" />
       <extension name="coverage">
         <pattern>
@@ -382,14 +391,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.tianqb" />
-      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentTest" />
-      <option name="METHOD_NAME" value="findByNameLike" />
+      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentJpaSpecificationExecutorTest" />
+      <option name="METHOD_NAME" value="page" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.findByNameLikeAndGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentJpaSpecificationExecutorTest.sort1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa02" />
       <extension name="coverage">
         <pattern>
@@ -398,14 +407,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.tianqb" />
-      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentTest" />
-      <option name="METHOD_NAME" value="findByNameLikeAndGender" />
+      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentJpaSpecificationExecutorTest" />
+      <option name="METHOD_NAME" value="sort1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.updateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentJpaSpecificationExecutorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa02" />
       <extension name="coverage">
         <pattern>
@@ -414,27 +423,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.tianqb" />
-      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentTest" />
-      <option name="METHOD_NAME" value="updateById" />
+      <option name="MAIN_CLASS_NAME" value="cn.tianqb.StudentJpaSpecificationExecutorTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentTest.findByGender" />
-      <item itemvalue="JUnit.StudentTest.updateById" />
-      <item itemvalue="JUnit.StudentTest.findByName" />
-      <item itemvalue="JUnit.StudentTest.findByNameLike" />
-      <item itemvalue="JUnit.StudentTest.findByNameLikeAndGender" />
+      <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.test" />
+      <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.findOne2" />
+      <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.findOne3" />
+      <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.sort1" />
+      <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.page" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTest.findByNameLikeAndGender" />
-        <item itemvalue="JUnit.StudentTest.findByNameLike" />
-        <item itemvalue="JUnit.StudentTest.findByName" />
-        <item itemvalue="JUnit.StudentTest.findByGender" />
-        <item itemvalue="JUnit.StudentTest.updateById" />
+        <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.page" />
+        <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.sort1" />
+        <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.findOne3" />
+        <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.findOne2" />
+        <item itemvalue="JUnit.StudentJpaSpecificationExecutorTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -449,73 +458,75 @@
       <option name="presentableId" value="Default" />
       <updated>1590550563229</updated>
       <workItem from="1590550566360" duration="2490000" />
-      <workItem from="1590562593543" duration="18949000" />
+      <workItem from="1590562593543" duration="20226000" />
+      <workItem from="1590736143502" duration="6499000" />
+      <workItem from="1590857354179" duration="909000" />
+      <workItem from="1590902970523" duration="2087000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 30m 46s.xml">
-      <configuration name="StudentTest.updateById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 31m 34s.xml">
-      <configuration name="StudentTest.updateById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 31m 58s.xml">
-      <configuration name="StudentTest.updateById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 32m 51s.xml">
-      <configuration name="StudentTest.updateById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_updateById - 2020.05.28 at 14h 34m 38s.xml">
-      <configuration name="StudentTest.updateById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_findByGender - 2020.05.28 at 14h 35m 39s.xml">
-      <configuration name="StudentTest.findByGender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_findByName - 2020.05.28 at 15h 33m 16s.xml">
-      <configuration name="StudentTest.findByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_findByNameLike - 2020.05.28 at 15h 35m 25s.xml">
-      <configuration name="StudentTest.findByNameLike" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_findByNameLike - 2020.05.28 at 15h 35m 40s.xml">
-      <configuration name="StudentTest.findByNameLike" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_findByNameLikeAndGender - 2020.05.28 at 15h 38m 06s.xml">
+    <history-entry file="StudentTest_findByNameLikeAndGender - 2020.05.28 at 15h 38m 42s.xml">
       <configuration name="StudentTest.findByNameLikeAndGender" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJpaSpecificationExecutorTest_test - 2020.05.30 at 15h 24m 58s.xml">
+      <configuration name="StudentJpaSpecificationExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJpaSpecificationExecutorTest_findOne2 - 2020.05.30 at 15h 30m 10s.xml">
+      <configuration name="StudentJpaSpecificationExecutorTest.findOne2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJpaSpecificationExecutorTest_findOne3 - 2020.05.30 at 15h 35m 40s.xml">
+      <configuration name="StudentJpaSpecificationExecutorTest.findOne3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJpaSpecificationExecutorTest_findOne3 - 2020.05.30 at 15h 36m 20s.xml">
+      <configuration name="StudentJpaSpecificationExecutorTest.findOne3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJpaSpecificationExecutorTest_sort1 - 2020.05.30 at 16h 32m 21s.xml">
+      <configuration name="StudentJpaSpecificationExecutorTest.sort1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJpaSpecificationExecutorTest_sort1 - 2020.05.30 at 19h 09m 39s.xml">
+      <configuration name="StudentJpaSpecificationExecutorTest.sort1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJpaSpecificationExecutorTest_page - 2020.05.31 at 13h 43m 46s.xml">
+      <configuration name="StudentJpaSpecificationExecutorTest.page" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJpaSpecificationExecutorTest_page - 2020.05.31 at 13h 51m 29s.xml">
+      <configuration name="StudentJpaSpecificationExecutorTest.page" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJpaSpecificationExecutorTest_page - 2020.05.31 at 13h 51m 47s.xml">
+      <configuration name="StudentJpaSpecificationExecutorTest.page" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21439000" />
+    <option name="totallyTimeSpent" value="32211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.78627145" visible="true" weight="0.15778251" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7799672" visible="true" weight="0.1609808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="2" sideWeight="0.21372855" side_tool="true" visible="true" weight="0.15778251" />
+      <window_info id="Persistence" order="2" sideWeight="0.22003284" side_tool="true" visible="true" weight="0.1609808" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Database Console" weight="0.6605206" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Messages" weight="0.04338395" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30401736" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33876222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18872017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0130293155" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.6605206" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.04338395" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -527,6 +538,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Redis Servers" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,20 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://0fb20160-a9ea-42d4-b45f-684ea750d69b/schema/jpa/table/student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jpa01/src/main/java/cn/tianqb/dao/ConntionDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-189">
           <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1092">
           <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,20 +768,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE.jar!/org/springframework/data/domain/Slice.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="81" column="7" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="197">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE.jar!/org/springframework/data/domain/AbstractPageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/awt/print/Pageable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="184" column="9" lean-forward="true" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
+        <state relative-caret-position="336">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa02/src/main/java/cn/tianqb/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="20" column="93" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE.jar!/org/springframework/data/domain/Sort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/criteria/CriteriaBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0fb20160-a9ea-42d4-b45f-684ea750d69b/schema/jpa/table/student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE.jar!/org/springframework/data/domain/PageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE.jar!/org/springframework/data/domain/PageImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE.jar!/org/springframework/data/domain/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/utlis/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa02/src/test/java/cn/tianqb/StudentJpaSpecificationExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
